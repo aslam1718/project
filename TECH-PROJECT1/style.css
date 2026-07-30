@@ -1,0 +1,250 @@
+*{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.navbar{
+    display: flex;
+    color: white;
+}
+nav h1{
+    position: relative;
+    top: -20px;
+}
+.navicons a{
+    position: relative;
+    left: 1180px;
+    margin-right: 40px;
+}
+
+.airdopes131{
+    color: white;
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 80px;
+}
+.airdopes131 img{
+    position: relative;
+    top: -40px;
+}
+.airdopes131 button{
+    border-radius: 2px;
+    color: white;
+    border: none;
+    height: 30px;
+} 
+.price1{
+    font-weight: bolder;
+}
+.price2{
+    font-weight: bolder;
+    text-decoration: line-through;
+    color: grey;
+}
+
+.feature{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+   
+}
+.feature-title{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin-bottom: 90px;
+
+}
+
+.FP{
+    border: 1px solid white;
+    justify-content: space-evenly;
+    height: 410px;
+    justify-items: center;
+    border: none;
+}
+.prname{
+    font-weight: lighter;
+    color: grey;
+}
+.fpprice1{
+    font-weight: bolder;
+}
+.fpprice2{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: bolder;
+}
+
+.TP-title{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin-bottom: 90px;
+
+}
+
+.TopPrdt{
+    position: relative;
+    top: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+}
+.TPName{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.TPName a{
+    text-decoration: none;
+    /* border: 2px solid white; */
+    text-align: center;
+    font-weight: lighter;
+}
+.Topdiv{
+    border: 1px solid grey;
+    padding: 20px;
+    margin: 10px;
+    height: 375px;
+    width: 315px;
+}
+.Topdiv button{
+    width: 318px;
+    border: none;
+    background-color: red;
+    height: 30px;
+    
+}
+.Topdiv a{
+    text-decoration: none;
+}
+.Topdiv a,h2,span,p{
+    color: rgb(195, 209, 221);
+}
+.Topdiv span{
+    font-size: x-large;
+    font-weight: bolder;
+
+}
+.price{
+    display: flex;
+    gap: 20px;
+}
+.old{
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+.ADV-title{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    margin-bottom: 90px;
+
+}
+
+.Advantage{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+
+}
+.Advantage div{
+    display: flex;
+    /* border: 1px solid white; */
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
+/* .footer{
+    position: relative;
+    top: 150px;
+} */
+.footer1 input::placeholder{
+    padding: 20px;
+    font-size: medium;
+}
+.footer1 button{
+    background-color: red;
+    border-radius: 5px;
+    color: rgb(195, 209, 221);
+    text-align: center;
+}
+.footer1 p{
+    font-size: large;
+}
+.footer1 h2,p{
+    color: rgb(195, 209, 221);
+}
+.footer1 h2{
+    font-size: xx-large;
+}
+.footer{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.footer div{
+    /* border: 2px solid white; */
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    /* text-align: center; */
+}
+.footer a p{
+    color: grey;
+
+}
+.footer a{
+    text-decoration: none;
+}
+.footer1{
+    position: relative;
+    top: -20px;
+    left: -35px;
+}
+.footer2{
+    position: relative;
+    left: 50px;
+}
+.footer3{
+    position: relative;
+    left: 50px;
+}
+.footer4{
+    position: relative;
+    left: 40px;
+}
+.hr{
+    position: relative;
+    top: 120px;
+}
+.copy{
+    position: relative;
+    top: 120px;
+    color: grey;
+}
+.link{
+    position: relative;
+    top: 130px;
+}
+.link img{
+    width: 20px;
+    height: 20px;
+    /* margin-left: 50px; */
+    margin-right: 80px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
