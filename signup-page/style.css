@@ -5,18 +5,35 @@
 body{
     background-color: black;
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    color: white;
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:black;
+    position:sticky;
+    top:0;
+    z-index:100;
 }
-nav a{
-    text-decoration: none;
+
+header nav{
+    display:flex;
+    align-items:center;
+    gap:25px;
 }
-.navicons a img{
-    margin-top: 20px;
-    margin-left: 50px;
+
+header nav a{
+    text-decoration:none;
+    color:white;
 }
+
+header nav i{
+    color:white;
+    font-size:20px;
+    cursor:pointer;
+    margin-left:0;
+}
+
 section{
     display: flex;
     justify-content: center;

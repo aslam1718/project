@@ -5,28 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech-Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
 </head>
 <body>
+    
     <header>
-    <nav class="navbar">
-        <h1>Tech-Shop</h1>
-        <div class="navicons">
-            <a href=""><img src="../png imgs/search.png" alt="" width="20px"></a>
-            <a href="/PRODUCT-DETAILS/product.html"><img src="../png imgs/cart.png" alt="" width="20px"></a>
-            <a href="/signup-page/index.html"><img src="../png imgs/user.png" alt="" width="20px"></a>
-        </div>
-    </nav>
+        <h1 style="color:white">Tech Shop</h1></a>
+        <nav>
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="/CART-PAGE/index.html"><i class="fa-solid fa-cart-arrow-down"></i>
+
+            <div class="user-menu">
+                <i class="fa-solid fa-user"></i>
+                <div class="user-card">
+
+                    <h2>Hello</h2>
+                    <h3>Access account and manage orders</h3>
+                    <a href="/signup-page/index.html"><button>login/signup</button></a>
+
+                    <hr>
+                    <h4>Please login</h4>
+                </div>
+            </div>
+        </nav>
+
     </header>
     <section class="mainsection">
         <div>
             <h3 style="font-weight: lighter;">boAt Airdopes 131</h3>
             <h1>Featherweight For<br>Comfort All day.</h1>
             <span class="price1">₹1,099</span>
-            <span class="price2">₹2,999</span><br><br>
-            <button style="background-color: orangered;">Shop Now</button>
+            <span class="price2" style="font-size: large;">₹2,999</span><br><br>
+            <button style="background-color: red;">Shop Now</button>
         </div>
         <div>
-            <img src="../products/boat131-3.png" alt="" width="550px" height="500px">
+            <a href="/PRODUCT-DETAILS/product.html" style="text-decoration: none;"><img src="../products/boat131-3.png" alt="" width="550px" height="500px"></a>
         </div>
     </section>
         <div class="feature-title">
@@ -85,7 +98,7 @@
     </div>
     
         <div class="TPName">
-        <a href="">All</a>
+        <a href="" style="background-color: red; width: 50px;">All</a>
         <a href="">Headphones</a>
         <a href="">Earbuds</a>
         <a href="">Earphones</a>
@@ -93,8 +106,9 @@
         </div>
         <br><br>
         <section class="TopPrdt">
+            <a href="/PRODUCT-DETAILS/product.html" style="text-decoration: none;">
         <div class="Topdiv"><center>
-            <img src="../products/jbl660nc-1.png" alt="" height="125px" width="150x"></center>
+            <img src="../products/jbl660nc-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733; &#9733;</h3>
             <h2>JBL LIVE 660NC</h2>
             <p>Wireless Over-Ear NC <br>Headphones</p>
@@ -104,8 +118,9 @@
             <center>
             <button type="submit" onclick="window.location.href='/CART-PAGE/cart.html';">Add to Cart</button></center>
         </div>
+        </a>
         <div class="Topdiv"><center>
-            <img src="../products/boat518-1.png" alt="" height="125px" width="150x"></center>
+            <img src="../products/boat518-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color: red">&#9733; &#9733; &#9733; &#9733; &#9733;</h3>
             <h2>boAt Rockerz 518</h2>
             <p>On-Ear Wireless boAt <br>Headphones</p>
@@ -115,7 +130,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/boat131-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/boat131-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733; &#9733;</h3>
             <h2>boAt Airdopes 131</h2>
             <p>Wireless In-Ear NC <br> Earbuds</p>
@@ -125,7 +140,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/boat110-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/boat110-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733; </h3>
             <h2>boAt BassHeads 110</h2>
             <p>boAt In-Ear Wired <br> Earphones</p>
@@ -134,7 +149,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/boat410-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/boat410-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733; &#9733;</h3>
             <h2>boAt Rockerz 410</h2>
             <p>Bluetooth &  Wired On-Ear<br> Headphones</p>
@@ -144,7 +159,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/jbl200bt-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/jbl200bt-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733; &#9733;</h3>
             <h2>JBL Live 200BT</h2>
             <p>JBL In-Ear Wireless <br>Neckbands</p>
@@ -153,7 +168,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/sonyXb910n-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/sonyXb910n-1.png" alt=""  height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733;</h3>
             <h2>Sony WH-XB910N</h2>
             <p>Sony Wireless Over-Ear <br>Headphones </p>
@@ -162,7 +177,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/jbl760nc-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/jbl760nc-1.png" alt=""  height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733;</h3>
             <h2>JBL Tune 760NC</h2>
             <p>Wireless Over-Ear NC <br> Headphones</p>
@@ -171,7 +186,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/boat255r-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/boat255r-1.png" alt=""  height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733;</h3>
             <h2>boAt Rockerz 255</h2>
             <p>In-Ear Wireless Over-Ear NC <br>Neckbands</p>
@@ -180,7 +195,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/jbl100-1.png" alt="" height="125px" width="150x"></center>
+            <img src="../products/jbl100-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733; &#9733;</h3>
             <h2>JBL Wave 100</h2>
             <p>In-Ear Truly Wireless <br> Earbuds</p>
@@ -189,7 +204,7 @@
             <button type="submit" >Add to Cart</button>
         </div>
         <div class="Topdiv"><center>
-            <img src="../products/sony1000xm4-1.png" alt=""  height="125px" width="150x"></center>
+            <img src="../products/sony1000xm4-1.png" alt="" height="130px" width="170x"></center>
             <h3 style="color:red">&#9733; &#9733; &#9733;</h3>
             <h2>Sony WF-1000XM4</h2>
             <p>Wireless In-Ear NC <br>Headphones</p>
@@ -207,22 +222,22 @@
     </div>
     <section class="Advantage">
             <div style="margin-top: 30px; margin-left: -3px;">
-                <img src="../icon pngs/express_delivery_truck.png" alt="" width="70px" height="70px">
+                <img src="/products/icon pngs/express_delivery_truck.png" alt="" width="70px" height="70px">
                 <h3 style="margin-top: 10px;margin-left: 1px;color: rgb(195, 209, 221);">Express Delivery </h3>
                 <p style="margin-left: -151px; margin-top: 36px;">Ships in 24 Hours</p>
             </div>
             <div style="margin-top: 31px;">
-                <img src="../icon pngs/brand_warranty_shield.png" alt="" width="50px" height="50px">
+                <img src="/products/icon pngs/brand_warranty_shield.png" alt="" width="50px" height="50px">
                 <h3 style="margin-top: 6px;margin-left: 10px;color: rgb(195, 209, 221);">Brand Warranty </h3>
                 <p style="margin-left: -142px; margin-top: 33px;">100% Original products</p>
             </div>
             <div>
-                <img src="../icon pngs/exciting_deals_tag.png" alt="" width="64px" height="78px">
+                <img src="/products/icon pngs/exciting_deals_tag.png" alt="" width="64px" height="78px">
                 <h3 style="margin-top: 15px;margin-left:5px ; color: rgb(195, 209, 221);">Exiting Deals</h3>
                 <p style="margin-left: -117px; margin-top: 40px;">On all prepaid orders</p>
             </div>
             <div>
-                <img src="../icon pngs/secure_payments_card.png" alt="" width="60px" height="60px" style="margin-top: 7px;">
+                <img src="/products/icon pngs/secure_payments_card.png" alt="" width="60px" height="60px" style="margin-top: 7px;">
                 <h3 style="margin-top: 15px; color: rgb(195, 209, 221);">Secure Payments</h3>
                 <p style="margin-left: -155px; margin-top: 40px;">SSL/Secure Certificate </p>
             </div>
@@ -232,7 +247,7 @@
         <div class="footer1">
         <h2>Tech-Shop</h2>
         <p>Subscribe to our Email alerts to recieve early discount offers, and new products Info.</p>
-        <input type="email" placeholder="Email address*" style="width: 274px; height: 35px;background-color: black;"><br><br>
+        <input type="email" placeholder="Email address*" style="width: 274px; height: 35px;background-color: black; border: 1px solid grey;"><br><br>
         <button style="width: 150px; height: 35px;border: none;">Subscribe</button>
         </div>
         <div>
@@ -266,10 +281,10 @@
     <p class="copy" style="color: white;">2024 | All Rights Reserved. Built By | <b style="color: gold; font-weight: lighter;">ASLAM ATTAR</b></p>
     </div>
     <div class="link">
-    <a href=""><img src="/footer/facebook.jpg.jpeg" alt=""></a>
-    <a href=""><img src="/footer/twitter.jpg.jpeg" alt=""></a>
-    <a href=""><img src="/footer/instagram.jpg.jpeg" alt="" ></a>
-    <a href=""><img src="/footer/linkdin.jpg.jpeg" alt=""></a>
+    <a href=""><img src="/products/footer/facebook.jpg.jpeg" alt=""></a>
+    <a href=""><img src="/products/footer/twitter.jpg.jpeg" alt=""></a>
+    <a href=""><img src="/products/footer/instagram.jpg.jpeg" alt="" ></a>
+    <a href=""><img src="/products/footer/linkdin.jpg.jpeg" alt=""></a>
     </div>
 </div>
     </footer>
